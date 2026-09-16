@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termostera Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="./img/Senai.png" alt="Senai">
+            <div>
+                <h4>Centro de conectividade</h4>
+                <p>Vila Mariana</p>
+            </div>
+        </nav>
+        <h2>Termostera Hub</h2>
+    </header>
+    <main>
+        <section id="titulo">
+            <h1>Informações <strong>meteorológicas</strong></h1>
+        </section>
+        <section id="containerGrid">
+            <div class="slot slot1">
+                <h3>Temperatura</h3>
+                <img src="./img/temperatura.svg" alt="">
+            </div>
+            <div class="slot slot2">
+                <h3>Umidade</h3>
+                <img src="./img/Umidade.svg" alt="">
+            </div>
+            <div class="slot slot3 active">
+                <h3>Pressão Atmosferica</h3>
+                <img src="./img/pressao.svg" alt="">
+            </div>
+            <div class="slot slot4">
+                <h3>Altitude</h3>
+                <img src="./img/altitude.svg" alt="">
+            </div>
+            <div class="slot slot5">
+                <h3>Data</h3>
+                <img src="./img/data.svg" alt="">
+            </div>
+            <div class="slot slot6">
+                <h3>Nome do Dispositivo</h3>
+                <img src="./img/device.svg" alt="">
+            </div>
+        </section>
+        <article id="viewerContainer">
+            <canvas id="meuGrafico"></canvas>
+            <div id="infoTexto"></div>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
